@@ -1,0 +1,1 @@
+This is an API created using FastAPI framework for my Pokedex App. Created as a learning process for learning python and backend basics.

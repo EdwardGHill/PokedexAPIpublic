@@ -1,0 +1,169 @@
+{
+    "info": {
+        "name": "FastAPI API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "add_to_favorites",
+            "request": {
+                "url": "https://pokedextest.onrender.com/favorites/",
+                "method": "POST"
+            }
+        },
+        {
+            "name": "get_favorites",
+            "request": {
+                "url": "https://pokedextest.onrender.com/favorites/",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "delete_favorite",
+            "request": {
+                "url": "https://pokedextest.onrender.com/favorites/{pokemon_id}",
+                "method": "DELETE"
+            }
+        },
+        {
+            "name": "get_all_pokemon",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_name",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/name/{name}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_search",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/search/{name}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_id",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/id/{id}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_type1",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/type1/{type1}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_type2",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/type2/{type2}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_type",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/type/{type}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_generation",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/generation/{generation}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_pokemon_by_legendary",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/legendary",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_random_pokemon",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/random",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_random_team",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/random_team",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_strong_team",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/strong_team",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_weak_team",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/weak_team",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_legendary_team",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/legendary_team",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_rainbow_team",
+            "request": {
+                "url": "https://pokedextest.onrender.com/pokemon/rainbow_team",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "login_for_access_token",
+            "request": {
+                "url": "https://pokedextest.onrender.com/auth/token",
+                "method": "POST"
+            }
+        },
+        {
+            "name": "register_user",
+            "request": {
+                "url": "https://pokedextest.onrender.com/auth/register",
+                "method": "POST"
+            }
+        },
+        {
+            "name": "add_to_collection",
+            "request": {
+                "url": "https://pokedextest.onrender.com/collection/",
+                "method": "POST"
+            }
+        },
+        {
+            "name": "get_collection",
+            "request": {
+                "url": "https://pokedextest.onrender.com/collection/",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "delete_collection",
+            "request": {
+                "url": "https://pokedextest.onrender.com/collection/{pokemon_id}",
+                "method": "DELETE"
+            }
+        }
+    ]
+}
